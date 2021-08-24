@@ -26,5 +26,5 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: hello world
       run: |
-        python hello.py
-        print("Hello, World!222")
+        python hello.py;
+        print("Hello, World!222");

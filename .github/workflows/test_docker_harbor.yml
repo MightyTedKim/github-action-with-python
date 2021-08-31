@@ -25,5 +25,5 @@ jobs:
           password: ${{ secrets.HARBOR_TOKEN }}
       - name: build and release to DockerHarbor
         run: |
-          docker build -t demo.goharbor.io/test-tedkim/test-image:v0.1 . 
-          docker push demo.goharbor.io/test-tedkim/test-image:v0.1
+          docker build -t demo.goharbor.io/test-tedkim/test-image:v0.2 . 
+          docker push demo.goharbor.io/test-tedkim/test-image:v0.2

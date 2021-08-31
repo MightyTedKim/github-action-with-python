@@ -1,7 +1,8 @@
 name: v_test_docker_harbor
 
-on: push
-
+on:
+  push:
+    branches: [ master ]
 jobs:
   v_deploy:
     name: v_deployjob
